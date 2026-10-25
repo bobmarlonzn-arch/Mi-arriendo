@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .inp { @apply w-full border border-slate-300 rounded px-2 py-1.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500; }
+  .btn { @apply bg-emerald-600 text-white rounded px-3 py-1.5 text-sm hover:bg-emerald-700 disabled:opacity-50; }
+  .btn2 { @apply bg-white border border-slate-300 text-slate-700 rounded px-3 py-1.5 text-sm hover:bg-slate-50; }
+  .tb { @apply w-full text-sm bg-white border border-slate-300 border-collapse; }
+  .tb th { @apply bg-slate-200 text-left px-2 py-2 border border-slate-300 whitespace-nowrap font-semibold; }
+  .tb td { @apply px-2 py-1.5 border border-slate-200 align-middle; }
+}
